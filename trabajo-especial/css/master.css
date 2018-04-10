@@ -1,0 +1,14 @@
+.background-color: black;
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.container img {
+  width: 100px;
+  height: 100px;
+}
+.navegador{
+  background-color: green;
+  width: 50% auto;
+  border: 3px solid green;
+}
