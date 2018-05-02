@@ -1,0 +1,13 @@
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.imagenes img {
+  float: left;
+  height: 300px;
+  width: 300px;
+}
+.imagenes {
+  margin: 20px;
+
+}

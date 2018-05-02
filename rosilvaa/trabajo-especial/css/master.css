@@ -1,0 +1,34 @@
+body{
+  background: gray;
+}
+.banner {
+  width: 65%;
+  height: 5%;
+}
+.banner img {
+  width: 30%;
+  height: 30%;
+
+}
+.navegador{
+  background-color: green;
+  border: 1px solid black;
+}
+
+.productos img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+.productos {
+  float: left;
+  width: 65%;
+  height: 65%;
+  margin: = 0px;
+
+}
+.destacados {
+  float: left;
+}
+.destacados img {
+}
