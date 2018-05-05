@@ -3,24 +3,132 @@
   <head>
     <meta charset="utf-8">
     <title>Freak Zone</title>
+    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
     <div class="container">
       <header>
-        <img src="css/imagenes/logo.jpg" alt="logo freak zone">
+        <img src="css/imagenes/logo.jpg" alt="Banner del local"> <!--Banner temporal-->
       </header>
-      </div>
-      <div class="menu">
-        <nav>
-          <menu class="navegador">
-            <a href="file:///C:/Repositories/rosilvaa/trabajo-especial/index.html"> Inicio</a>
-            <a href="https://www.facebook.com/FreakZoneTandil/k"> Facebook</a>
-            <a href="https://animeflv.net/">Anime</a>
-            <a href="https://www.cuevana2.tv/">Peliculas</a>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"> Inicio</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/FreakZoneTandil/"> Facebook</a>
+          </li>
+          <li>
+            <a href="#">Anime</a>
+          </li>
+          <li>
+            <a href="#">Peliculas</a>
+          </li>
+          <li>
             <a href="#">Series</a>
-            <a href="#">Contacto</a>
-          </menu>
-      </div>
+          </li>
+          <li>
+            <a href="#contacto">Contacto</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <main>
+        <h1 class="titulo_importante">Lista de productos:</h1>
+        <section>
+          <article class="producto">
+            <h1>Varita Fluffy pedido especial:</h1>
+            <img src="css/imagenes/varita-1.jpg" alt="Varita fluffy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a class="boton_compra" href="html2.html">
+              <button type="button" name="comprar">Comprar</button>
+            </a>
+            <a class="boton_detalle" href="html1.html">
+              <button type="button" name="detalle">Detalles del producto</button>
+            </a>
+          </article>
+
+          <article class="producto">
+            <h1>Esferas del dragon:</h1>
+            <img src="css/imagenes/dragon-ball.jpg" alt="Esferas del dragon">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a class="boton_compra" href="#">
+              <button type="button" name="comprar">Comprar</button>
+            </a>
+            <a class="boton_detalle" href="">
+              <button type="button" name="detalle">Detalles del producto</button>
+            </a>
+          </article>
+
+          <article class="producto">
+            <h1>Pedido terminado: Buzo BTS:</h1>
+            <img src="css/imagenes/buzo-bts.jpg" alt="Buzo de BTS">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a class="boton_compra" href="#">
+              <button type="button" name="comprar">Comprar</button>
+            </a>
+            <a class="boton_detalle" href="">
+              <button type="button" name="detalle">Detalles del producto</button>
+            </a>
+          </article>
+        </section>
+      </main>
+
+      <aside class="destadcados">
+        <section>
+          <h1>Productos destacados!</h1>
+          <img src="css/imagenes/Esfera.png" alt="">
+          <p>Esferas del dragon de cristal!</p>
+        </section>
+
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Nombre de la serie</th>
+                <th>Temporada</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>La casa de papel</td>
+                <td>Temporada 3</td>
+              </tr>
+              <tr>
+                <td>Game of Throne</td>
+                <td>Temporada 4</td>
+              </tr>
+              <tr>
+                <td>Vikings</td>
+                <td>Temporada 7</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+      </aside>
+      <footer>
+        <div class="form">
+
+          <form id="contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="Nombre" placeholder="Juan">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="Apellido" placeholder="Perez">
+
+            <label for="mail">Email:</label>
+            <input type="text" name="Email" placeholder="juan.perez@ejemplo.com">
+
+            <label for="comentario"> Comentario:</label>
+            <textarea rows="8" cols="80" name="comentario" placeholder="Tu comentario..."></textarea>
+            <button type="submit" value="Submit">Enviar</button>
+          </form>
+        </div>
+      </footer>
+
+    </div>
   </body>
 </html>

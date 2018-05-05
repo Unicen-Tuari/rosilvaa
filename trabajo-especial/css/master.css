@@ -1,14 +1,167 @@
-.background-color: black;
-.container {
-  width: 75%;
-  margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
 }
-.container img {
-  width: 100px;
-  height: 100px;
+body {
+  font-family: 'Architects Daughter';font-size: 20px;
+  background: black;
+  color: red;
 }
-.navegador{
+p {
+  font-size: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #1f1;
+}
+
+header {
+  width: 65%;
+  height: 5%;
+}
+header img {
+  width: 30%;
+  height: 30%;
+
+}
+
+/* COMIENZO DE NAV */
+nav{
   background-color: green;
-  width: 50% auto;
-  border: 3px solid green;
+  border: 1px solid red;
+  border-radius: 4px;
+  font-size: 30px;
+
+}
+nav ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: red;
+
+}
+
+/* FIN NAV */
+/* MAIN */
+main{
+  float: left;
+  width: 70%;
+}
+
+.titulo_importante{
+  font-size: 60px;
+  text-decoration: underline;
+  text-align: center;
+  color: green;
+}
+article {
+  margin: 3% auto;
+  border-bottom: 4px dotted green;
+  padding: 0 0 30px 20px;
+}
+
+.producto {
+  float: left;
+  width: 65%;
+  height: 65%;
+  margin: = 0px;
+
+}
+.producto h1 {
+  text-decoration: underline;
+}
+.producto img {
+  display: block;
+  width: 30%;
+  margin: 20px auto;
+}
+.producto .boton_detalle button, .producto .boton_compra button{
+    background-color: #7d42f4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.producto .boton_detalle button{
+  background-color: red;
+}
+
+aside{
+  float: right;
+  width: 30%;
+}
+section{
+  margin: 60px auto;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+
+}
+table th{
+  font-size: 30px;
+  color: orange;
+}
+table th, table td{
+  border: 1px dotted red;
+
+}
+
+.destacados, .detalles {
+
+  float: right;
+}
+.destacados img {
+}
+/* FIN MAIN */
+
+footer{
+  clear: both;
+  border-radius: 5px;
+  padding: 20px;
+}
+.form{
+  width: 40%;
+  margin-left: 5%;
+
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
 }
