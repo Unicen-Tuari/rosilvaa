@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-    <div class="container">
       <header>
         <img src="css/imagenes/logo.jpg" alt="Banner del local"> <!--Banner temporal-->
       </header>
@@ -34,22 +33,49 @@
 
         </ul>
       </nav>
-      <main class="productos">
-        <img src="css/imagenes/varita-1.jpg" alt="">
-        <img src="css/imagenes/varita-2.jpg" alt="">
-        <img src="css/imagenes/varita-3.jpg" alt="">
+    <div class="container">
+      <main>
+
+        <article>
+          <h1>Varita Fluffy:</h1>
+          <img src="css/imagenes/varita-1.jpg" alt="">
+          <img src="css/imagenes/varita-2.jpg" alt="">
+          <img src="css/imagenes/varita-3.jpg" alt="">
+        </article>
       </main>
-      <div class="detalle">
+      <aside >
+        <h1>Detalles del producto:</h1>
         <ul>
-            <li>Varita personalizada de Fluffy</li>
-            <li>Porcelana fria</li>
-            <li>Pintura negra</li>
-            <li>Barnizada</li>
+          <li>Varita personalizada de Fluffy</li>
+          <li>Porcelana fria</li>
+          <li>Pintura negra</li>
+          <li>Barnizada</li>
         </ul>
-        <a class="boton_compra" href="#">
+        <a class="boton_compra" href="html2.html">
           <button type="button" name="comprar">Comprar</button>
         </a>
-      </div>
+      </aside>
     </div>
+      <footer>
+        <div class="form">
+
+          <form id="contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="Nombre" placeholder="Juan">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="Apellido" placeholder="Perez">
+
+            <label for="mail">Email:</label>
+            <input type="text" name="Email" placeholder="juan.perez@ejemplo.com">
+
+            <label for="comentario"> Comentario:</label>
+            <textarea rows="8" cols="80" name="comentario" placeholder="Tu comentario..."></textarea>
+            <button type="submit" value="Submit">Enviar</button>
+          </form>
+        </div>
+      </footer>
+
+
   </body>
 </html>

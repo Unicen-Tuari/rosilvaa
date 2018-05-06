@@ -56,9 +56,14 @@ nav ul li a:hover {
 
 /* FIN NAV */
 /* MAIN */
+.container{
+  overflow: hidden;
+  border-bottom: 2px solid green;
+}
 main{
   float: left;
-  width: 70%;
+  width: 69%;
+  border-right:2px solid green;
 }
 
 .titulo_importante{
@@ -69,26 +74,35 @@ main{
 }
 article {
   margin: 3% auto;
-  border-bottom: 4px dotted green;
-  padding: 0 0 30px 20px;
+  padding: 5%;
+  width: auto;
 }
-
-.producto {
-  float: left;
-  width: 65%;
-  height: 65%;
-  margin: = 0px;
-
-}
-.producto h1 {
-  text-decoration: underline;
-}
-.producto img {
+article img {
   display: block;
   width: 30%;
   margin: 20px auto;
 }
+.compra img {
+  margin: 20px 0;
+}
+
+.producto {
+  border-bottom: 4px dotted green;
+}
+article h1 {
+  text-decoration: underline;
+}
+
 .producto .boton_detalle button, .producto .boton_compra button{
+    background-color: #7d42f4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.boton_compra button{
     background-color: #7d42f4;
     color: white;
     padding: 12px 20px;
@@ -103,19 +117,26 @@ article {
 
 aside{
   float: right;
-  width: 30%;
+  width: 28%;
+  padding-left: 2%;
 }
-section{
+
+aside section{
   margin: 60px auto;
+  padding-bottom: 5%;
+}
+aside ul{
+  margin: 5% 0;
 }
 
 table{
-  width: 100%;
+  width: 95%;
   text-align: center;
   border-collapse: collapse;
 
 }
 table th{
+  padding: 3px;
   font-size: 30px;
   color: orange;
 }
@@ -130,6 +151,10 @@ table th, table td{
 }
 .destacados img {
 }
+main form {
+  width: 50%;
+  margin: 5% 0;
+}
 /* FIN MAIN */
 
 footer{
@@ -142,7 +167,7 @@ footer{
   margin-left: 5%;
 
 }
-input[type=text], textarea {
+input[type=text], textarea, select {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
