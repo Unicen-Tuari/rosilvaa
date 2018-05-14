@@ -3,8 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Juego</title>
+    <link rel="stylesheet" href="css/juego.css">
   </head>
-  <body>
-    <button id="jugar" type="button" name="comenzar">Comenzar juego</button>
+  <body class = "neutral">
+    <section>
+      <label for="tiempoTablero">Ingrese tiempo que desea mostrar las cartas:</label>
+      <input id="tiempo" type="number" name="tiempoTablero" value="1000">
+    </section>
+    <!-- <button id="comenzar" type="button" name="comenzar">Comenzar juego</button> -->
+    <a href="#" id="comenzar">Comenzar juego</a>
+    <table>
+      <thead>
+        <tr>
+          <td id="0" class="default"></td>
+          <td id="1" class="default"></td>
+          <td id="2" class="default"></td>
+          <td id="3" class="default"></td>
+          <td id="4" class="default"></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#" class="seleccion" name="0">A</a></td>
+          <td><a href="#" class="seleccion" name="1">B</a></td>
+          <td><a href="#" class="seleccion" name="2">C</a></td>
+          <td><a href="#" class="seleccion" name="3">D</a></td>
+          <td><a href="#" class="seleccion" name="4">E</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <table id="resultados">
+      <tr>
+        <th>Aciertos:</th>
+        <td id="acierto">0</td>
+      </tr>
+      <tr>
+        <th>Errores:</th>
+        <td id="error">0</td>
+      </tr>
+    </table>
+    <script type="text/javascript" src="js/juego.js"></script>
   </body>
 </html>
