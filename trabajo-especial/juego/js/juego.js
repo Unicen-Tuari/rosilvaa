@@ -100,6 +100,8 @@ function asignarEventos() {
           //Actualizo tabla RESULTADOS
           let acierto = document.getElementById("acierto");
           acierto.innerHTML = countAciertos;
+          let marcas = document.getElementById("marcas");
+          marcas.innerHTML = countMarcas;
 
         }else{
 
