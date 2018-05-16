@@ -26,7 +26,6 @@ header {
 header img {
   width: 30%;
   height: 30%;
-
 }
 
 /* COMIENZO DE NAV */
@@ -54,7 +53,6 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: red;
-
 }
 
 /* FIN NAV */
@@ -63,7 +61,6 @@ nav ul li a:hover {
   overflow: hidden;
   border-bottom: 2px solid green;
 }
-
 main{
   float: left;
   width: 69%;
@@ -96,7 +93,6 @@ article img {
 .producto {
   border-bottom: 4px dotted green;
 }
-
 article h1 {
   text-decoration: underline;
 }
@@ -110,7 +106,6 @@ article h1 {
     cursor: pointer;
 
 }
-
 .boton_compra button{
     background-color: #7d42f4;
     color: white;
@@ -120,7 +115,6 @@ article h1 {
     cursor: pointer;
 
 }
-
 .producto .boton_detalle button{
   background-color: red;
 }
@@ -135,7 +129,6 @@ aside section{
   margin: 60px auto;
   padding-bottom: 5%;
 }
-
 aside ul{
   margin: 5% 0;
 }
@@ -144,14 +137,13 @@ table{
   width: 95%;
   text-align: center;
   border-collapse: collapse;
-}
 
+}
 table th{
   padding: 3px;
   font-size: 30px;
   color: orange;
 }
-
 table th, table td{
   border: 1px dotted red;
 
@@ -161,10 +153,8 @@ table th, table td{
 
   float: right;
 }
-
 .destacados img {
 }
-
 main form {
   width: 50%;
   margin: 5% 0;
@@ -176,7 +166,6 @@ footer{
   border-radius: 5px;
   padding: 20px;
 }
-
 .form{
   width: 40%;
   margin-left: 5%;
